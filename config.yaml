@@ -1,0 +1,32 @@
+# PBS flags
+queue: normal
+project: e14 
+walltime: 9:00:00
+ncpus: 846
+mem: 3200GB
+jobname: Wombat
+
+#collate_walltime: 10:00:00
+#collate_mem: 16GB
+collate_walltime: 4:00:00
+collate_mem: 30GB
+collate_ncpus: 16
+collate_queue: express
+collate_flags: -n4 -z -m -r
+
+# Model config:
+model: mom
+shortpath: /short/v45
+#exe: fms_MOM_SIS_wombat.x
+#exe: fms_MOM_SIS_wombat_jun16z.x
+exe: fms_MOM_SIS_wombat_jan25.x
+input: 
+    - /short/v45/pas561/mom/input/wombat_jun16z_input
+    - /short/v45/pas561/mom/input/wombat_jun16z_bgc_sbc
+    - /short/v45/pas561/mom/input/wombat_masks
+collate: true
+
+# Misc
+stacksize: unlimited
+
+qsub_flags: -lother=hyperthread
