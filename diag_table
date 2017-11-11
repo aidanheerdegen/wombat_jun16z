@@ -7,7 +7,7 @@
 "ocean_%4yr%2mo",12,"months",1,"days","Time",12,"months"
 "ocean_surface%4yr%2mo",1,"days",1,"days","Time",12,"months"
 "ocean_force%4yr%2mo",1,"months",1,"days","Time",12,"months"
-#"ice_force%4yr%2mo",1,"months",1,"days","Time",12,"months"
+"ice_%4yr%2mo",1,"months",1,"days","Time",12,"months"
 #"TMP/atm_flux_diag%4yr%2mo",1,"days",1,"days","Time",12,"months"
 "ocean_global%4yr%2mo",3,"hours",1,"days","Time",12,"months"
 
@@ -90,6 +90,9 @@
 "ocean_model","evap_heat","evap_heat","ocean_force%4yr%2mo","all",.true.,"none",2
 "ocean_model","sens_heat","sens_heat","ocean_force%4yr%2mo","all",.true.,"none",2
 "ocean_model","lw_heat","lw_heat","ocean_force%4yr%2mo","all",.true.,"none",2
+"ocean_model","mld","mld","ocean_force%4yr%2mo","all",.true.,"none",2
+"ocean_model","hblt","hblt","ocean_force%4yr%2mo","all",.true.,"none",2
+"ocean_model","diff_cbt_t","diff_cbt_t","ocean_force%4yr%2mo","all",.true.,"none",2
 #"ocean_model","pbot_t","pbot_t","ocean_force%4yr%2mo","all",.true.,"none",2
 #"ocean_model","bmf_u","bmf_u","ocean_force%4yr%2mo","all",.true.,"none",2
 #"ocean_model","bmf_v","bmf_v","ocean_force%4yr%2mo","all",.true.,"none",2
@@ -127,8 +130,11 @@
 #"ocean_model","ty_trans_int_z","ty_trans_int_z","ocean_%4yr%2mo","all",.true.,"none",2
 "ocean_model","ty_trans_rho","ty_trans_rho","ocean_%4yr%2mo","all",.true.,"none",2
 "ocean_model","ty_trans","ty_trans","ocean_%4yr%2mo","all",.true.,"none",2
+"ocean_model","ty_trans_rho_gm","ty_trans_rho_gm","ocean_%4yr%2mo","all",.true.,"none",2
 #"ocean_model","ty_trans_gm","ty_trans_gm","ocean_%4yr%2mo","all",.true.,"none",2
 
+"ocean_model","hblt","hblt","ocean_%4yr%2mo","all",.true.,"none",2
+"ocean_model","diff_cbt_t","diff_cbt_t","ocean_%4yr%2mo","all",.true.,"none",2
 "ocean_model","sea_level","sea_level","ocean_%4yr%2mo","all",.true.,"none",2
 "ocean_model","mld","mld","ocean_%4yr%2mo","all",.true.,"none",2
 "ocean_model","pbot_t","pbot_t","ocean_%4yr%2mo","all",.true.,"none",2
