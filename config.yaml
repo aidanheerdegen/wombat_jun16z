@@ -1,6 +1,6 @@
 # PBS flags
 queue: normal
-project: v45
+project: e14
 walltime: 9:00:00
 ncpus: 846
 mem: 3200GB
