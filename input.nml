@@ -45,6 +45,7 @@
 	fileset_write='multi'
 	max_files_r = 700
 	max_files_w = 700
+        checksum_required=.false.
 /
 
  &fms_nml
@@ -72,8 +73,8 @@
        mom_rough_ice=5.0e-4
        wd_turn=0.0
        do_icebergs = .false.
-       layout = 36, 30
-       io_layout = 9, 30
+       layout = 64, 30
+       io_layout = 16, 10
 /
 
  &icebergs_nml
@@ -265,8 +266,8 @@
 	surface_height_split = 1
 	barotropic_split = 80
 	debug=.false.
-	layout = 36, 30
-	io_layout = 9, 30
+	layout = 64, 30
+	io_layout = 16, 10
 /
 
  &ocean_momentum_source_nml
@@ -576,7 +577,7 @@
 
  &ocean_tracer_diag_nml
 	tracer_conserve_days=30.0      
-	diag_step=48
+	diag_step=4320
 	do_bitwise_exact_sum=.false.
 /
 
