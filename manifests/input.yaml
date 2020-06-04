@@ -1,0 +1,328 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/atm_ocean_mosaic_tile1Xlnd_ocean_mosaic_tile1.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/atm_ocean_mosaic_tile1Xlnd_ocean_mosaic_tile1.nc
+  hashes:
+    binhash: 3584941558b354c0c94635c336168c74
+    md5: 01da53ffbb637a20bcaec513559ac103
+work/INPUT/atm_ocean_mosaic_tile1Xocn_ocean_mosaic_tile1.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/atm_ocean_mosaic_tile1Xocn_ocean_mosaic_tile1.nc
+  hashes:
+    binhash: f98efbf8bfba64deea2d62ab178d9219
+    md5: 415189e2883d6d9c9adc1ec472052bc9
+work/INPUT/bgc_param.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/bgc_param.nc
+  hashes:
+    binhash: e1b0762af9547f96bd4117a86734a11e
+    md5: 5ce230ada8a669e95a123d454490836e
+work/INPUT/cfc.bc.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/cfc.bc.nc
+  hashes:
+    binhash: ea3398b66ee748db5a60def35f5a8d22
+    md5: cd460813182eba33585778de37911a37
+work/INPUT/chl.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/chl.nc
+  hashes:
+    binhash: 45d7dce1d2c292da8c52948fb1b839b9
+    md5: 99b68aec777292d746e4d93c2b976189
+work/INPUT/co2.rcp8p5.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/co2.rcp8p5.nc
+  hashes:
+    binhash: 5d6a6e58ed189c2b17e3fd9fbc42d73b
+    md5: 7b0e4ce1bfacd93099d7ff2dcd51fbad
+work/INPUT/diff.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/diff.nc
+  hashes:
+    binhash: d1d3d5bd5820e2066148c8237cab1156
+    md5: 35841ed5e582d4c81bc6de102473cf4d
+work/INPUT/dust.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/dust.nc
+  hashes:
+    binhash: 13c371c17a6a631e8c5514a2ead35544
+    md5: f6cda902e5cc634badbd4372e5bdb55a
+work/INPUT/grid_spec.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/grid_spec.nc
+  hashes:
+    binhash: 96757c4ae8ac99a1806b307a52ba9c44
+    md5: 57663e6575e424cce2cf98bc9778786a
+work/INPUT/ice_mask_table:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/ice_mask_table
+  hashes:
+    binhash: 87b62f12d94c2a63ad76194f8c11c72a
+    md5: abd62ae64b381bbff32f55c6fc989adb
+work/INPUT/jack.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/jack.nc
+  hashes:
+    binhash: 4e87fddc9bd72c5dcc06cd996b2e8d1e
+    md5: 2746b321b3517d354b0f129584c57b41
+work/INPUT/masks/mask_table.105.36x20:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.105.36x20
+  hashes:
+    binhash: 84d86c19d19b886b78fcc34b34590dd9
+    md5: 085abd33b376ec9ac254216f5c23a2b0
+work/INPUT/masks/mask_table.119.32x20:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.119.32x20
+  hashes:
+    binhash: 985b7f796b303419f49b7f737dff252c
+    md5: 7412d8cff249cadcdec7507be46b955b
+work/INPUT/masks/mask_table.199.32x30:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.199.32x30
+  hashes:
+    binhash: 2732b9f5b37c0e52b91248c6ead552f5
+    md5: a3e4a995bcacf9b580908262de4c5553
+work/INPUT/masks/mask_table.234.36x30:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.234.36x30
+  hashes:
+    binhash: 3bdf72f04b1e7f2e4d7e0526c59c756e
+    md5: 6d5c822f860c9e50dfacb9455692d945
+work/INPUT/masks/mask_table.261.40x30:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.261.40x30
+  hashes:
+    binhash: 109f3013e3df4ecac1e77687b96f9772
+    md5: 01d58325fe104a631e010c21a2569292
+work/INPUT/masks/mask_table.339.40x36:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.339.40x36
+  hashes:
+    binhash: 4137559306973caeec365ab455914224
+    md5: 273a09687c1db27445586e10c7ceabf2
+work/INPUT/masks/mask_table.4.10x10:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.4.10x10
+  hashes:
+    binhash: 3e64cd619edbdd1b8f9347cad9074d31
+    md5: ec335f3c61933e0718861f4f7231d856
+work/INPUT/masks/mask_table.443.64x30:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.443.64x30
+  hashes:
+    binhash: b82bd1775779c12506fb8f882598179e
+    md5: abd62ae64b381bbff32f55c6fc989adb
+work/INPUT/masks/mask_table.47.7x101:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.47.7x101
+  hashes:
+    binhash: 3a7a39a440e7b291581644a7638e39e6
+    md5: c8ec9168a899b1b15ffe1b8bde93240b
+work/INPUT/masks/mask_table.65.10x71:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.65.10x71
+  hashes:
+    binhash: ffaf8ab8fd7714a51846e379d24dae79
+    md5: 68fc534f5f2996e70787821a882716a7
+work/INPUT/masks/mask_table.75.12x59:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.75.12x59
+  hashes:
+    binhash: 423e6c4267e722ae0d1d4698436f3b74
+    md5: f1125da526d1279ff384bdefeb1096ed
+work/INPUT/masks/mask_table.81.15x47:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.81.15x47
+  hashes:
+    binhash: 97ad760615d8cc445f897d8226ebfefb
+    md5: 33208d2a4e545ce1e132f9c95902f561
+work/INPUT/masks/mask_table.89.39x18:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.89.39x18
+  hashes:
+    binhash: 220e2de8215c3ca85b740e1777ebe152
+    md5: 82badd950c92049af2d92cb50d2524cb
+work/INPUT/masks/mask_table.97.37x19:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.97.37x19
+  hashes:
+    binhash: ac6eed3ca6208a4337e1dffca69b2be2
+    md5: e203be736305fcc70808dc642bd9e029
+work/INPUT/masks/mask_table.97.40x18:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.97.40x18
+  hashes:
+    binhash: 7f20a0ef23abc6d281ea4e5621e1f00b
+    md5: 738743391850166e40d75bc58cb85ae6
+work/INPUT/masks/mask_table.98.35x20:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.98.35x20
+  hashes:
+    binhash: d47425dd3f3a1b8ff0ca53df22bd93f5
+    md5: bfb0bc6ca006f89d78ffdeb018c3faf1
+work/INPUT/masks/mask_table.99.32x22:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/mask_table.99.32x22
+  hashes:
+    binhash: 7023db7a671068a687e0028c7d0fdde6
+    md5: e529199c044b9466d468fa0c2977f40f
+work/INPUT/masks/readme.txt:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/masks/readme.txt
+  hashes:
+    binhash: a5b92893097f8013283f5cbcd37468dd
+    md5: 228fbc79aa8a54d762df0a7d7065e983
+work/INPUT/ncar_precip.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ncar_precip.nc
+  hashes:
+    binhash: 70b37c9c3406e7937ca05cfa8466255f
+    md5: 71235d8dac21cc62836c35c0c068923c
+work/INPUT/ncar_rad.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ncar_rad.nc
+  hashes:
+    binhash: 6c766f517691bc6998c7ec7e76690091
+    md5: 0964b91c2b9f19295a23c2e00ab6ef0c
+work/INPUT/ncar_rescale.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ncar_rescale.nc
+  hashes:
+    binhash: 97023e7321525c514073f6d361118f18
+    md5: df2b7ac7f865e4f6adbce9053d2a22f9
+work/INPUT/ocean_hgrid.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ocean_hgrid.nc
+  hashes:
+    binhash: 330b0f29d1e862aa3504954da2f14715
+    md5: 38b6f324ae16cc13c180699123ad85b5
+work/INPUT/ocean_mask.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ocean_mask.nc
+  hashes:
+    binhash: aa592958bab279ac8716cee41c150461
+    md5: bdc676dc8db9eae2383a002a468b04e6
+work/INPUT/ocean_mask_table:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_masks/ocean_mask_table
+  hashes:
+    binhash: 84ccb85aece4bc1201342f478047b22c
+    md5: abd62ae64b381bbff32f55c6fc989adb
+work/INPUT/ocean_mosaic.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ocean_mosaic.nc
+  hashes:
+    binhash: b992db4f14e83a160967f85c2f3f3d8a
+    md5: 36e956159508785d9201cc13aec0cf02
+work/INPUT/ocean_vgrid.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/ocean_vgrid.nc
+  hashes:
+    binhash: 840d41d6f4a828865cb8eb72fffa2b13
+    md5: 4e4048b451c6e5051062aa16e3501dcc
+work/INPUT/ocmip2_fice_monthly_om1p5_bc.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/ocmip2_fice_monthly_om1p5_bc.nc
+  hashes:
+    binhash: 6d935ffc33220452add2a06e9b487e3f
+    md5: 27c7355b018f7f22e22629e6cd1cd297
+work/INPUT/ocmip2_press_monthly_om1p5_bc.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/ocmip2_press_monthly_om1p5_bc.nc
+  hashes:
+    binhash: 3ea0b969b9ee8a9e243aba68bb57efbe
+    md5: 2cc789f32ac05665a0f6f68665511a2d
+work/INPUT/ocmip2_xkw_monthly_om1p5_bc.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/ocmip2_xkw_monthly_om1p5_bc.nc
+  hashes:
+    binhash: 9c332cd17ec9ce6d107ee6949eb3a1bd
+    md5: a8d4649b88c664c4e8f0068a98a19ad2
+work/INPUT/q_10.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/q_10.nc
+  hashes:
+    binhash: 8a9dc6c833e5024227b7779281a697cf
+    md5: 09b6de3fd2555aa212fdbe1f2059c138
+work/INPUT/roughness_amp.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/roughness_amp.nc
+  hashes:
+    binhash: f41f5594b8362111699b7f56adf0a484
+    md5: 6b18885d65950d7ee2afe803432fbf5c
+work/INPUT/roughness_cdbot.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/roughness_cdbot.nc
+  hashes:
+    binhash: ecb0be210a6686e7b98cccd7c62d711c
+    md5: efa8999e9e4686cad695ff5cf0d523d5
+work/INPUT/runoff.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/runoff.nc
+  hashes:
+    binhash: 9baa538839250e255661d7460754be3a
+    md5: e6ccb60b65d0dd168ee8af3090e5388d
+work/INPUT/salt_sfc_restore.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/salt_sfc_restore.nc
+  hashes:
+    binhash: 3ed7c2348933ac709fa8f098311088a2
+    md5: 03b22565aee5aabc37e8b599d2ae6f08
+work/INPUT/slp.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/slp.nc
+  hashes:
+    binhash: e8eb582f34731a80909d94be1dc17601
+    md5: 95232a02719417ca08c808eba1de26c2
+work/INPUT/sst_ice_clim.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/sst_ice_clim.nc
+  hashes:
+    binhash: b6fdea9fa190f1ff802d15d727137dd8
+    md5: eea35547f8b836c678f75f75f8445a09
+work/INPUT/swdn.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc/swdn.nc
+  hashes:
+    binhash: c7aae6435d0d3d61753ced46fe6dce65
+    md5: 63afbbbeb5b8e34a9d2dce9e67a20e3a
+work/INPUT/t_10.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/t_10.nc
+  hashes:
+    binhash: 0c690dad014ea40f4697f0277a8dd679
+    md5: 7e6fef9eb022b5f51e6e85cc78848db2
+work/INPUT/tideamp.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/tideamp.nc
+  hashes:
+    binhash: 82e5fb27b77fa131a5877abfd1dd4947
+    md5: 49b1f91341f19cd4ef80a6be2cb2d250
+work/INPUT/topog.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/topog.nc
+  hashes:
+    binhash: ec500a5cbd2b2acbb8ff25d871096f79
+    md5: 75821e1900156e69520e41bae69adee4
+work/INPUT/u_10.30Sdown15.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.30Sdown15.nc
+  hashes:
+    binhash: 4a10476c6b34e2ca71a75cc44f7e2dc5
+    md5: 1a14b5dc7d29417023bfdab8301b1710
+work/INPUT/u_10.30Sup15.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.30Sup15.nc
+  hashes:
+    binhash: 43cb3d7f8e0e7c473954125588c78705
+    md5: ee9dacd10944b2f55b39bfa878d9075b
+work/INPUT/u_10.30Sup15shift4.indo.v2.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.30Sup15shift4.indo.v2.nc
+  hashes:
+    binhash: cdc039ea905cf05d0d9dbe98527d0b59
+    md5: ded7134388537c6f74fa10e4afde1fe4
+work/INPUT/u_10.30Sup15shift4.indo.v4.maude2.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.30Sup15shift4.indo.v4.maude2.nc
+  hashes:
+    binhash: 1258f36ad00e66209afff5f0acfd6529
+    md5: ae91881bce9400155a0eb4d687be8508
+work/INPUT/u_10.30Sup15shift4.indo.v4.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.30Sup15shift4.indo.v4.nc
+  hashes:
+    binhash: b3b37bc6919789d0fd6b4e6a23ecdeb0
+    md5: 469889206f79cd33610b3090c9aa90c3
+work/INPUT/u_10.30Sup15shift4.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.30Sup15shift4.nc
+  hashes:
+    binhash: c3846f26e8484e823a937df87dba5da4
+    md5: 49a66d76f5575248874091b26e1e1b37
+work/INPUT/u_10.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/u_10.nc
+  hashes:
+    binhash: 40696a702d3b9aaad6351bbaaa8b7110
+    md5: 8b5b0c55c0a9e455be6fb8ee8d11c78a
+work/INPUT/v_10.30Sdown15.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.30Sdown15.nc
+  hashes:
+    binhash: a40db26dcdde7f03b926ce33bd2bc96b
+    md5: 779a9c38bea36f3ab349403fa9be02f9
+work/INPUT/v_10.30Sup15.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.30Sup15.nc
+  hashes:
+    binhash: b31a6f1057791eb4fd99b86a023d4307
+    md5: 44bd3c7b7a471c1d21a9a792548dc17d
+work/INPUT/v_10.30Sup15shift4.indo.v2.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.30Sup15shift4.indo.v2.nc
+  hashes:
+    binhash: 2c60b62b40c95bbc83d3fba4005fd32c
+    md5: 96771210327b68dd92df46038c7aa369
+work/INPUT/v_10.30Sup15shift4.indo.v4.maude2.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.30Sup15shift4.indo.v4.maude2.nc
+  hashes:
+    binhash: 972c37ce99ef2e9884cce3f06fa90757
+    md5: 4457383d09ee809602ce5afc11566e8c
+work/INPUT/v_10.30Sup15shift4.indo.v4.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.30Sup15shift4.indo.v4.nc
+  hashes:
+    binhash: adad727e1bb68dd5ac6eac9250a9ada0
+    md5: 22a094c0bd32b15e39fd8cb7351ca3c5
+work/INPUT/v_10.30Sup15shift4.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.30Sup15shift4.nc
+  hashes:
+    binhash: e74b7f9f2f30e0cd2a419664a1701192
+    md5: 26468697329851f2b0d0edd5093d63d3
+work/INPUT/v_10.nc:
+  fullpath: /g/data/v45/pas561/mom/input/wombat_jun16z_input/v_10.nc
+  hashes:
+    binhash: ff8ba0d07156dcc5f6cfd346f34fb96e
+    md5: 6f4c414b7d7259bfe599b25b3b8089c0

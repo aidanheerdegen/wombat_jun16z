@@ -1,0 +1,8 @@
+format: yamanifest
+version: 1.0
+---
+work/fms_MOM_SIS_Wombat_Jun2020.x:
+  fullpath: /scratch/e14/aph502/mom/bin/fms_MOM_SIS_Wombat_Jun2020.x
+  hashes:
+    binhash: a4725892f6b7a8675d0a8f551166f0f4
+    md5: 4f0a8af524faa0770b9f2a96dadadefd
