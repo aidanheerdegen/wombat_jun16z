@@ -7,9 +7,9 @@ mem: 3840GB
 jobname: WomNP_wp2_74
 
 collate:
-  walltime: 4:00:00
-  mem: 128GB
-  ncpus: 16
+  walltime: 1:00:00
+  mem: 16GB
+  ncpus: 4
   queue: express
 
 # Model config:
