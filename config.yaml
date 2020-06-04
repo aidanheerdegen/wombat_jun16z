@@ -15,7 +15,7 @@ collate:
 # Model config:
 model: mom
 shortpath: /scratch/e14/
-exe: fms_MOM_SIS_Wombat_Jun2020.x
+exe: /scratch/e14/aph502/mom/bin/fms_MOM_SIS_Wombat_Jun2020.x
 input: 
     - /g/data/v45/pas561/mom/input/wombat_jun16z_input
     - /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc
