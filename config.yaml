@@ -4,46 +4,24 @@ project: e14
 walltime: 5:00:00
 ncpus: 1477
 mem: 3840GB
-#ncpus: 846
-#mem: 3200GB
 jobname: WomNP_wp2_74
 
-#collate_walltime: 10:00:00
-#collate_mem: 16GB
-collate_walltime: 4:00:00
-collate_mem: 128GB
-collate_ncpus: 16
-collate_queue: express
-collate_flags: -n4 -z -m -r
+collate:
+  walltime: 4:00:00
+  mem: 128GB
+  ncpus: 16
+  queue: express
 
 # Model config:
 model: mom
-shortpath: /short/v45
-#exe: fms_MOM_SIS_wombat.x
-#exe: fms_MOM_SIS_wombat_jun16z.x
-#exe: fms_MOM_SIS_wombat_jan22_2018_trace.x
-#exe: fms_MOM_SIS_wombat_jan25.x
-exe: fms_MOM_SIS_Wombat_Mar2018.x
-#queue: normalbw
+shortpath: /scratch/e14/
+exe: fms_MOM_SIS_Wombat_Jun2020.x
 input: 
-    - /short/v45/pas561/mom/input/wombat_jun16z_input
-    - /short/v45/pas561/mom/input/wombat_jun16z_bgc_sbc
-    - /short/v45/pas561/mom/input/wombat_masks
-collate: true
+    - /g/data/v45/pas561/mom/input/wombat_jun16z_input
+    - /g/data/v45/pas561/mom/input/wombat_jun16z_bgc_sbc
+    - /g/data/v45/pas561/mom/input/wombat_masks
+
+restart: /g/data3/v45/pas561/mom/archive/wombat_jun16z/restart2020
 
 # Misc
 stacksize: unlimited
-
-#mpirun:
-#- -mca pml cm
-#- -mca mtl mxm
-#- -x MXM_LOG_FILE=$PBS_JOBFS/mxm.log
-
-#mpirun:
-#    - -mca mtl mxm
-
-#for bwq
-#platform:
-#   nodesize: 28
-
-qsub_flags: -lother=hyperthread
